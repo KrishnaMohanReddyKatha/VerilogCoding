@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator O.40d
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\students\final//final -x xc17v02 -u 00000000 C:/Users/students/final/final_test.bit 
+
+PROM C:\Users\students\final\final.prm map: Fri Mar 21 13:09:12 2014
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          329K
+PROM start    0000:0000
+PROM end      0005:26ff
+PROM checksum 00de4a83
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Mar 21 13:03:59 2014 C:/Users/students/final/final_test.bit

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/students/final/keypad_test.xst" -ofn "C:/Users/students/final/keypad_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 keypad_test.ngc keypad_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o keypad_test_map.ncd keypad_test.ngd keypad_test.pcf 
+par -w -intstyle ise -ol high -t 1 keypad_test_map.ncd keypad_test.ncd keypad_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml keypad_test.twx keypad_test.ncd -o keypad_test.twr keypad_test.pcf 
+bitgen -intstyle ise -f keypad_test.ut keypad_test.ncd 
+xst -intstyle ise -ifn "C:/Users/students/final/keypad_test.xst" -ofn "C:/Users/students/final/keypad_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 keypad_test.ngc keypad_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o keypad_test_map.ncd keypad_test.ngd keypad_test.pcf 
+par -w -intstyle ise -ol high -t 1 keypad_test_map.ncd keypad_test.ncd keypad_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml keypad_test.twx keypad_test.ncd -o keypad_test.twr keypad_test.pcf 
+bitgen -intstyle ise -f keypad_test.ut keypad_test.ncd 
+xst -intstyle ise -ifn "C:/Users/students/final/keypad_test.xst" -ofn "C:/Users/students/final/keypad_test.syr" 

@@ -1,0 +1,8 @@
+Release 13.1 Drc O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 21 15:09:04 2014
+
+drc -z final_test.ncd final_test.pcf
+
+DRC detected 0 errors and 0 warnings.

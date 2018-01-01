@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator O.40d
+# Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION O.40d
+DATE            03/21/2014 - 15:13
+SOURCE          C:\Users\students\final\Untitled.mcs
+DEVICE          XC17V02
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x00DF823A
+START_ADDRESS   0x00000000 END_ADDRESS 0x0004547F DIRECTION_UP   "C:/Users/students/final/final_test.bit" 3s500efg320
